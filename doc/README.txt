@@ -1,38 +1,36 @@
-Matplotlib documentation
+Matplotlib 文档
 ========================
 
-Building the documentation
+建立文档
 --------------------------
 
-See :file:`doc/devel/documenting_mpl.rst` for instructions to build the docs.
+查看 :file:`doc/devel/documenting_mpl.rst` 文件了解建立文档的指令。
 
-Organization
+组织
 ------------
 
-This is the top level build directory for the Matplotlib
-documentation.  All of the documentation is written using sphinx, a
-python documentation system built on top of ReST.  This directory contains
+对于 Matplotlib 文档来说这是顶层目录。
+所有文档都是用 sphinx, python 文档系统建立在 ReST 之上。
+本目录中包含了
 
-* users - the user documentation, e.g., plotting tutorials, configuration
-  tips, etc.
+* users - 目录是用户文档，例如，绘图教程，配置提示，等等。
 
-* devel - documentation for Matplotlib developers
+* devel - 目录是 Matplotlib 开发者们的文档。
 
-* faq - frequently asked questions
+* faq - 目录是最常见的提问。
 
-* api - placeholders to automatically generate the api documentation
+* api - 目录是自动化生成 api 文档的地方。
 
-* mpl_toolkits - documentation of individual toolkits that ship with
-  Matplotlib
+* mpl_toolkits - 目录是 Matplotlib 的独立工具套件。
 
-* index.rst - the top level include document for Matplotlib docs
+* index.rst - 文件是 Matplotlib 文档的主页。
 
-* conf.py - the sphinx configuration
+* conf.py - 文件是 sphinx 配置文件。
 
-* Makefile and make.bat - entry points for building the docs
+* Makefile 和 make.bat - 文件是建立文档的入口。
 
-* _static - used by the sphinx build system
+* _static - 目录是 sphinx 建立文档系统使用的目录。
 
-* _templates - used by the sphinx build system
+* _templates - 目录是 sphinx 建立文档系统使用的目录。
 
-* sphinxext - Sphinx extensions for the Matplotlib docs
+* sphinxext - 目录是 Sphinx 扩展 Matplotlib 文档的目录。
