@@ -1,8 +1,7 @@
 .. _tutorials-introductory:
 
-Introductory
+初级教程
 -------------
 
-These tutorials cover the basics of creating visualizations with
-Matplotlib, as well as some best-practices in using the package
-effectively.
+本部分教程是使用 Matplotlib 建立数据可视化的基础内容，
+也包含了一些最实际的效率用法。更多是让你从小白到入门所需的基础概念。
